@@ -105,7 +105,10 @@ const cssLoaders = [
     },
     resolve:{
       alias:{
-        jquery$:path.resolve(__dirname,"../src/libs/jquery.min.js")
+        jquery$:path.resolve(__dirname,"../src/libs/jquery.min.js"),
+        san: process.env.NODE_ENV === 'production'
+                ? 'san/dist/san.js'
+                : 'san/dist/san.dev.js'
       }
     },
     module:{

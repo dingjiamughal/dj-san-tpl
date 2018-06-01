@@ -1,0 +1,39 @@
+<template>
+  <div class="dj-san">
+    {{msg}}
+    <hello></hello>
+    <button>
+      <router-link to="/one">one</router-link>
+    </button>
+    <button>
+      <router-link to="/two">two</router-link>
+    </button>
+    <button>
+      <router-link to="/three">three</router-link>
+    </button>
+  </div>
+</template>
+
+
+<script>
+  import hello from './component/helloWorld.san'
+  import { Link } from 'san-router'
+  export default {
+    components:{
+      hello,
+      'router-link':Link
+    },
+    initData() {
+      return {
+        msg: "welcome sanjs !"
+      }
+    }
+  }
+</script>
+
+<style lang="less">
+  .dj-san {
+    font-size:16px;
+    color:red;
+  }
+</style>

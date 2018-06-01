@@ -4,6 +4,13 @@
  * @Last modified by:   Dingjia
  * @Last modified time: 2018-04-02T00:39:49+08:00
  */
+
+import san from 'san'
+import App from '../app.san'
+import '../router'
+var myApp = new App()
+// myApp.attach(document.querySelector("#root"))
+
 import "../style/index.less";
 import render from "./test_export-default.js"
 import * as t1 from "./test_export.js"

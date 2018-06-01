@@ -134,6 +134,9 @@ const cssLoaders = [
       },{
         test:/\.(eot|woff|woff2|ttf|svg)$/,
         use:fileLoader
+      },{
+        test: /\.san$/,
+        loader: 'san-loader'
       }]
     },
     plugins:[

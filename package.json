@@ -34,6 +34,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
     "glob-all": "^3.1.0",
+    "html-loader": "^0.5.5",
     "html-webpack-inline-chunk-plugin": "^1.1.1",
     "html-webpack-plugin": "^3.1.0",
     "http-proxy-middleware": "^0.18.0",
@@ -56,9 +57,8 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.15.1",
-    "download-git-repo": "^1.0.2",
-    "ora": "^2.1.0"
+    "san": "^3.6.0",
+    "san-loader": "^0.0.7",
+    "san-router": "^1.2.0"
   }
 }

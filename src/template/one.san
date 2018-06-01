@@ -1,0 +1,14 @@
+<template>
+  <div class="one">
+    one
+  </div>
+</template>
+
+
+<script>
+
+</script>
+
+<style lang="less">
+
+</style>

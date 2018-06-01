@@ -16,7 +16,7 @@ module.exports = {
     port:8031,
     overlay:true,
     hot:true,
-    hotOnly:true,
+    // hotOnly:true,
     proxy:proxy,
     historyApiFallback:historyApiFallback
   },
